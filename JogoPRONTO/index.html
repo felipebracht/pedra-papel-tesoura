@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Pedra, Papel, Tesoura</title>
+</head>
+
+<body>
+
+  <div class="cabecalho">
+    <h1 class="titulo">Pedra, Papel, Tesoura</h1>
+
+  </div>
+  <div class="conteudo">
+    <p>Clique em um dos botões para fazer sua jogada: </p>
+  <button class="botao" id="pedra">Pedra</button>
+  <button class="botao" id="papel">Papel</button>
+  <button class="botao" id="tesoura">Tesoura</button>
+    <h2 id="resultado"></h2>
+    <h3 id="jogador-escolha"></h3>
+    <h3 id="computador-escolha"></h3>
+  </div>
+  <div>
+    <div class="placar">
+      <h4>Placar</h4>
+      <span id="placar-jogador"></span>
+      <br>
+      <span id="placar-computador"></span>
+      <br>
+      <span id="empates"></span>
+      <br>
+      <button class="botao-limpar" onclick="limparPlacar()">Limpar placar</button>
+    <br>
+    <br>
+    <button class="botao-reiniciar" onclick="reiniciarJogo()">Reiniciar jogo</button>
+  </div>
+    </div> 
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
